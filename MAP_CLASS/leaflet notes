@@ -1,0 +1,106 @@
+GEOLOC
+
+  anything interactive in graphic has to be done with java script
+  leaflet's tutorial: http://leafletjs.com/examples/choropleth/
+
+  DO WITH MAPS: 
+    rolloever and show something
+    click and display somthing
+
+  10 writers
+
+  2 groups
+
+  similar times
+
+
+
+LEAFLET TUTORIAL NOTEBOOK
+
+  WHY JAVASCRIPT
+
+  - Have javascript open when you test your maps to see the errors. 
+
+  - INSPECT === CONSOLE
+
+
+
+MAPS EXAMPLES
+
+  file:///Users/aspasiadaskalopoulou/Desktop/data/11/map_templates/group_template/leaflet_map.html
+
+  keys:
+  - state
+  - geometry
+  - color*
+
+  * It can seem the fun part, but it is really importan! Data humanism: colors have different meanings and connotations. 
+
+  Dropdown menu, Jon programmed it himself. 
+
+  - In leaflet each of the shapes is considered a layer (upon the map). 
+
+  - You can do individual groups or group άσχετα πράγματα μεταξύ τους. 
+
+  - Legends we are going to talk about it later. 
+
+WE OPEN LEAFLET_MAP.HTML IN SUBLIME TEXT
+  - # styles
+
+  - . classes
+
+  - WE ARE IMPORTING OUR GEOJSON DOCUMENT:
+
+      <script type="text/javascript" src="us-states.js"></script>
+
+  - HERE IS WHERE OUR MAP VARIABLE IS:
+
+    var map = L.map('map').setView([37.8, -96], 4);
+  
+      - SET VIEW: 
+
+          longtitute and latitute and zoom level, of the center (focus) of the map
+
+  - id: 'mapbox.light'
+            the style of the map 
+                  day-night
+                  satellite map
+                  pirates (old fashioned)
+      https://www.mapbox.com/api-documentation/
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

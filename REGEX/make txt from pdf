@@ -1,0 +1,10 @@
+how to take text out of pdfs
+
+two main pdf libraries in python: 
+pypdf (but it doesn't work!)
+pdfliner (is another one, but it doesn't seem to work in python3)
+
+Solution: library that you install in command line that turns pdf in text! And you command it from your command line. 
+
+Check Group_Project_Option_2
+

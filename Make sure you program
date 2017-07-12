@@ -1,0 +1,105 @@
+REGULAR EXPRESSIONS
+
+homework: 
+
+- list comprehension that searched through regular expression:
+
+- word boundaries
+
+- sets
+
+function:
+
+=====================
+
+EMPEROR OF ICE CREAM [0]
+transform_it:
+- takes the title for the text, 
+- text0, hold the entire text,
+- True (= i am giving you a poem)
+
+it's a simple function: 
+USE def to define it. 
+
+(title, text,poem) = parameters.... that become variables inside the function
+
+transform_it is a dictionary that I am creating has a title, a string of the whole text(we are not sliting it yet), lines (or sentenses) that is a list of all the lines depending on how you want to split it.
+
+spliting: 
+if poem is True =---> if poem:
+
+========
+
+transform_it = text_do_dict("Emperor of Ice Cream", text0, True)
+
+%%%% to get the line
+transform_it['lines'][6]
+transform_it['lines'][]
+
+%%%% to get the title
+transform_it['title']
+
+%%%%%% and then we put it in a list
+all_text.append(transform_it)
+
+                                                    BEGINING OF CODE:
+                                                    import re
+                                                    all_text = []
+
+all_text.append(transform_it)
+all_texts[0] --> and this gives us the whole dictionary. 
+
+all_texts[0]['title'] ---> and you get the title
+
+all_texts[0]['lines'][0] ---> you give a line 
+
+=========================
+
+SNOWMAN [1]
+
+all_texts --> print to see: it's already a list of dictionaries 
+
+to get the title
+
+all_texts[1]['title']
+
+==========================
+OF MERE BEING
+
+ETC....
+
+len(all_texts) = 5
+
+the whole thing is a list of 5 dictionaries (title,text, text split in lines)
+
+to get the first line:
+all_texts[4]['lines'][0]
+
+##########
+FUNCTIONS
+
+the good thing about functions is that once you write them you can use them for everything! 
+
+THERE ARE TWO DIFFERENT TYPES
+1) WITH PAREMETERS
+2) WITHOUT PARAMETERS
+
+get_lengths() it's a simple function
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  

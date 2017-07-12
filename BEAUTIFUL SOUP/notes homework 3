@@ -1,0 +1,9 @@
+scene 1 Act 1
+soup_doc.find_all('div')[2]
+
+Character Act 1
+soup_doc.find_all('div')[1].find('strong').string
+
+characters = soup_doc.find_all('div')[1].find_all('ul')
+for character in characters:
+  print(characters.find('strong').string)
